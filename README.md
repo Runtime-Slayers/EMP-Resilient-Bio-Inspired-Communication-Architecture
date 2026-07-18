@@ -9,22 +9,29 @@ This repository implements the research pipeline for the **BREAKTHROUGH 50: EMP-
 
 ## 📊 Pipeline Architecture
 
-The flowchart below visualizes the methodology and execution sequence implemented in this project:
+The flowchart below visualizes the methodology, code modules, and logical execution sequence of the project:
 
 ```mermaid
 graph TD
-    subgraph Data Engineering
-        A["Raw Input Datasets"] --> B["Data Preprocessing & Normalisation"]
-        B --> C["Feature Engineering & Selection"]
+    subgraph "Phase 1: Environment & System Setup"
+        N0["Ingest & Parse: EMP-Resistant Neural Communication System"]
+        N1["Mathematical Framework"]
     end
-    subgraph Model Architecture
-        C --> D["Multi-Model Comparative Training"]
-        D --> E["Validation via Stratified CV"]
-        E --> F["Hyperparameter Tuning & Threshold Optimization"]
+    subgraph "Phase 2: Signal & Core Processing"
+        N2["Implementation"]
+        N3["Generate Mesh Network"]
     end
-    subgraph Inference & Metrics
-        F --> G["Final Classification / Regression Performance Reports"]
+    subgraph "Phase 3: Validation & Performance Evaluation"
+        N4["EMP Event"]
+        N5["Dijkstra"]
+        N6["Self Healing Route"]
     end
+    N0 --> N1
+    N1 --> N2
+    N2 --> N3
+    N3 --> N4
+    N4 --> N5
+    N5 --> N6
 ```
 
 ---
