@@ -1,7 +1,7 @@
 # BREAKTHROUGH 50: EMP-Resistant Neural Communication System
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
+![Neural](https://img.shields.io/badge/Domain-Neural-blue)
 
 This repository implements the research pipeline for the **BREAKTHROUGH 50: EMP-Resistant Neural Communication System** project, developed by the Runtime-Slayers research group.
 
@@ -15,16 +15,17 @@ The flowchart below visualizes the methodology, code modules, and logical execut
 graph TD
     subgraph "Phase 1: Environment & System Setup"
         N0["Ingest & Parse: EMP-Resistant Neural Communication System"]
-        N1["Mathematical Framework"]
+        N1["Fiber optic backbone (immune to EMP"]
     end
     subgraph "Phase 2: Signal & Core Processing"
-        N2["Implementation"]
-        N3["Generate Mesh Network"]
+        N2["Chemical"]
+        N3["Acoustic communication fallback (sound waves, not EM)"]
+        N4["Generate Mesh Network"]
     end
     subgraph "Phase 3: Validation & Performance Evaluation"
-        N4["EMP Event"]
-        N5["Dijkstra"]
-        N6["Self Healing Route"]
+        N5["EMP Event"]
+        N6["Dijkstra"]
+        N7["Self Healing Route"]
     end
     N0 --> N1
     N1 --> N2
@@ -32,13 +33,14 @@ graph TD
     N3 --> N4
     N4 --> N5
     N5 --> N6
+    N6 --> N7
 ```
 
 ---
 
 ## 🔍 Abstract & Research Context
 
-
+--- # PART A: WHAT IS THIS AND WHY DOES IT MATTER? ## 1. The Idea in Plain English An **electromagnetic pulse (EMP)** — from nuclear detonation, solar storm, or directed-energy weapon — can destroy all electronic communication in milliseconds. Military and civilian infrastructure depends entirely on electronic communication. What if we could build a communication system **inspired by biological neural networks** that is inherently resistant to EMP? **Your breakthrough**: Design a **bio-inspired communication architecture** that uses principles from biological neural signaling — electrochemical gradients, chemical neurotransmitters, and ionic propagation — combined with hardened fiber optics and analog signal processing, to create a communication backbone that survives EMP events. ## 2. Why This Matters
 
 ---
 
